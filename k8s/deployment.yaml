@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: pipelines-vote-api
+    app.kubernetes.io/name: golang
   name: pipelines-vote-api
 spec:
   replicas: 1
