@@ -3,6 +3,7 @@ kind: Service
 metadata:
   labels:
     app: pipelines-vote-api
+    vendor: alticelabs
   name: pipelines-vote-api
 spec:
   type: ClusterIP
